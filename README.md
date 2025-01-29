@@ -58,4 +58,4 @@ int main() {
 
     return 0;
 }
-std::cout << generator.GenerateNextIdentifier("A1-A1-A1-A1-A1-A1-A1-A1-A1-A9") << std::endl; // Вывод: std::invalid_argument
+
