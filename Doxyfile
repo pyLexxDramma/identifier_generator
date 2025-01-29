@@ -1,0 +1,18 @@
+# Doxyfile 1.8.20
+
+# Project related configuration options
+PROJECT_NAME           = "My Project"
+OUTPUT_DIRECTORY       = doc                     # Папка для выходных данных
+
+# Input files
+INPUT                  = src test                # Папки с исходным кодом
+FILE_PATTERNS          = *.cpp *.h               # Шаблоны файлов для обработки
+RECURSIVE              = YES                     # Обрабатывать подкаталоги
+
+# Output options
+GENERATE_HTML          = YES                     # Генерировать HTML документацию
+HTML_OUTPUT            = html                    # Папка для HTML документации
+
+# Additional options
+EXTRACT_ALL            = YES                     # Извлекать документацию из всех файлов
+QUIET                  = NO                      # Выводить сообщения о процессе

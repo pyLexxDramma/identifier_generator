@@ -1,0 +1,23 @@
+name: Build and Test
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: sudo apt-get update && sudo apt-get install g++
+
+    - name: Compile
+      run: g++ -std=c++11 -I./src ../test/test_identifier_generator.cpp ./src/IdentifierGenerator.cpp -o test
+
+    - name: Run Tests
+      run: ./test

@@ -1,0 +1,87 @@
+\doxysection{test/test\+\_\+identifier\+\_\+generator.cpp File Reference}
+\hypertarget{test__identifier__generator_8cpp}{}\label{test__identifier__generator_8cpp}\index{test/test\_identifier\_generator.cpp@{test/test\_identifier\_generator.cpp}}
+{\ttfamily \#include "{}Identifier\+Generator.\+h"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$cassert$>$}\newline
+{\ttfamily \#include $<$stdexcept$>$}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{test__identifier__generator_8cpp_afb120e15ec0d68dd44f113324acf5a6e}{test\+\_\+empty\+\_\+identifier}} ()
+\begin{DoxyCompactList}\small\item\em Тестирует генерацию идентификатора для пустого входного значения. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{test__identifier__generator_8cpp_a6f1131a384e9f44ebfb6c177f12ad975}{test\+\_\+simple\+\_\+increment}} ()
+\begin{DoxyCompactList}\small\item\em Тестирует инкремент идентификаторов. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{test__identifier__generator_8cpp_aded690d279e9b094135afcf155ee3407}{test\+\_\+multi\+\_\+part\+\_\+increment}} ()
+\begin{DoxyCompactList}\small\item\em Тестирует инкремент идентификаторов с несколькими частями. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{test__identifier__generator_8cpp_acc5fe0129e27da84e662f6713ec2a82c}{test\+\_\+invalid\+\_\+chars}} ()
+\begin{DoxyCompactList}\small\item\em Тестирует обработку недопустимых символов в идентификаторе. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{test__identifier__generator_8cpp_a3270b5d925f74dfcc23311f481e2f9f7}{test\+\_\+max\+\_\+length}} ()
+\begin{DoxyCompactList}\small\item\em Тестирует максимальную длину идентификатора. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{test__identifier__generator_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em Главная функция для запуска всех тестов. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{test__identifier__generator_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\index{test\_identifier\_generator.cpp@{test\_identifier\_generator.cpp}!main@{main}}
+\index{main@{main}!test\_identifier\_generator.cpp@{test\_identifier\_generator.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily \label{test__identifier__generator_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+int main (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Главная функция для запуска всех тестов. 
+
+\begin{DoxyReturn}{Returns}
+int Код возврата. 
+\end{DoxyReturn}
+\Hypertarget{test__identifier__generator_8cpp_afb120e15ec0d68dd44f113324acf5a6e}\index{test\_identifier\_generator.cpp@{test\_identifier\_generator.cpp}!test\_empty\_identifier@{test\_empty\_identifier}}
+\index{test\_empty\_identifier@{test\_empty\_identifier}!test\_identifier\_generator.cpp@{test\_identifier\_generator.cpp}}
+\doxysubsubsection{\texorpdfstring{test\_empty\_identifier()}{test\_empty\_identifier()}}
+{\footnotesize\ttfamily \label{test__identifier__generator_8cpp_afb120e15ec0d68dd44f113324acf5a6e} 
+void test\+\_\+empty\+\_\+identifier (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Тестирует генерацию идентификатора для пустого входного значения. 
+
+\Hypertarget{test__identifier__generator_8cpp_acc5fe0129e27da84e662f6713ec2a82c}\index{test\_identifier\_generator.cpp@{test\_identifier\_generator.cpp}!test\_invalid\_chars@{test\_invalid\_chars}}
+\index{test\_invalid\_chars@{test\_invalid\_chars}!test\_identifier\_generator.cpp@{test\_identifier\_generator.cpp}}
+\doxysubsubsection{\texorpdfstring{test\_invalid\_chars()}{test\_invalid\_chars()}}
+{\footnotesize\ttfamily \label{test__identifier__generator_8cpp_acc5fe0129e27da84e662f6713ec2a82c} 
+void test\+\_\+invalid\+\_\+chars (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Тестирует обработку недопустимых символов в идентификаторе. 
+
+\Hypertarget{test__identifier__generator_8cpp_a3270b5d925f74dfcc23311f481e2f9f7}\index{test\_identifier\_generator.cpp@{test\_identifier\_generator.cpp}!test\_max\_length@{test\_max\_length}}
+\index{test\_max\_length@{test\_max\_length}!test\_identifier\_generator.cpp@{test\_identifier\_generator.cpp}}
+\doxysubsubsection{\texorpdfstring{test\_max\_length()}{test\_max\_length()}}
+{\footnotesize\ttfamily \label{test__identifier__generator_8cpp_a3270b5d925f74dfcc23311f481e2f9f7} 
+void test\+\_\+max\+\_\+length (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Тестирует максимальную длину идентификатора. 
+
+\Hypertarget{test__identifier__generator_8cpp_aded690d279e9b094135afcf155ee3407}\index{test\_identifier\_generator.cpp@{test\_identifier\_generator.cpp}!test\_multi\_part\_increment@{test\_multi\_part\_increment}}
+\index{test\_multi\_part\_increment@{test\_multi\_part\_increment}!test\_identifier\_generator.cpp@{test\_identifier\_generator.cpp}}
+\doxysubsubsection{\texorpdfstring{test\_multi\_part\_increment()}{test\_multi\_part\_increment()}}
+{\footnotesize\ttfamily \label{test__identifier__generator_8cpp_aded690d279e9b094135afcf155ee3407} 
+void test\+\_\+multi\+\_\+part\+\_\+increment (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Тестирует инкремент идентификаторов с несколькими частями. 
+
+\Hypertarget{test__identifier__generator_8cpp_a6f1131a384e9f44ebfb6c177f12ad975}\index{test\_identifier\_generator.cpp@{test\_identifier\_generator.cpp}!test\_simple\_increment@{test\_simple\_increment}}
+\index{test\_simple\_increment@{test\_simple\_increment}!test\_identifier\_generator.cpp@{test\_identifier\_generator.cpp}}
+\doxysubsubsection{\texorpdfstring{test\_simple\_increment()}{test\_simple\_increment()}}
+{\footnotesize\ttfamily \label{test__identifier__generator_8cpp_a6f1131a384e9f44ebfb6c177f12ad975} 
+void test\+\_\+simple\+\_\+increment (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Тестирует инкремент идентификаторов. 
+

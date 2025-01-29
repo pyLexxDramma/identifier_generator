@@ -1,0 +1,51 @@
+\doxysection{Identifier\+Generator Class Reference}
+\hypertarget{class_identifier_generator}{}\label{class_identifier_generator}\index{IdentifierGenerator@{IdentifierGenerator}}
+
+
+Класс для генерации идентификаторов.  
+
+
+
+
+{\ttfamily \#include $<$Identifier\+Generator.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{class_identifier_generator_a92a9a7e536131c9331cac9695ba38438}{Generate\+Next\+Identifier}} (const std\+::string \&identifier) const
+\begin{DoxyCompactList}\small\item\em Генерирует следующий идентификатор на основе переданного. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Класс для генерации идентификаторов. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_identifier_generator_a92a9a7e536131c9331cac9695ba38438}\index{IdentifierGenerator@{IdentifierGenerator}!GenerateNextIdentifier@{GenerateNextIdentifier}}
+\index{GenerateNextIdentifier@{GenerateNextIdentifier}!IdentifierGenerator@{IdentifierGenerator}}
+\doxysubsubsection{\texorpdfstring{GenerateNextIdentifier()}{GenerateNextIdentifier()}}
+{\footnotesize\ttfamily \label{class_identifier_generator_a92a9a7e536131c9331cac9695ba38438} 
+std\+::string Identifier\+Generator\+::\+Generate\+Next\+Identifier (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{identifier}{}\end{DoxyParamCaption}) const}
+
+
+
+Генерирует следующий идентификатор на основе переданного. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em identifier} & Исходный идентификатор. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::string Следующий идентификатор. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em std\+::invalid\+\_\+argument} & Если идентификатор имеет недопустимый формат. \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{_identifier_generator_8h}{Identifier\+Generator.\+h}}\item 
+src/\mbox{\hyperlink{_identifier_generator_8cpp}{Identifier\+Generator.\+cpp}}\end{DoxyCompactItemize}
